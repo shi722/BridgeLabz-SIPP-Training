@@ -1,10 +1,14 @@
 import java.util.Scanner;
 
 public class SumOfNaturalNumbers {
+
+    // Recursive method to find sum of n natural numbers
     public static int recursiveSum(int n) {
         if (n == 1) return 1;
         return n + recursiveSum(n - 1);
     }
+
+    // Formula method to find sum of n natural numbers
     public static int formulaSum(int n) {
         return n * (n + 1) / 2;
     }
@@ -27,3 +31,9 @@ public class SumOfNaturalNumbers {
         System.out.println("Sum using formula:   " + sumByFormula);
 
         if (sumByRecursion == sumByFormula) {
+            System.out.println("✅ Both results are equal. The calculation is correct.");
+        } else {
+            System.out.println("❌ Results are not equal. There may be an error.");
+        }
+    }
+}
