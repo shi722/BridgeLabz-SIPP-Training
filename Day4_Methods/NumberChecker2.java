@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class NumberChecker2 {
     public static int[] getDigits(int n) {
         String s = String.valueOf(n);
