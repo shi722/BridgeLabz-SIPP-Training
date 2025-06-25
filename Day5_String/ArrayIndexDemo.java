@@ -1,3 +1,4 @@
+package Day5_String;
 import java.util.Scanner;
 public class ArrayIndexDemo {
 
