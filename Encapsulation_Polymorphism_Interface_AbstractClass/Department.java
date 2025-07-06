@@ -1,5 +1,4 @@
 package Encapsulation_Polymorphism_Interface_AbstractClass;
-
 public interface Department {
     void assignDepartment(String deptName);
     String getDepartmentDetails();
