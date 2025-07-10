@@ -5,7 +5,7 @@ public class Student {
     String grade;
     Student next;
 
-    public Student(int rollNumber, String name, int age, String grade) {
+public Student(int rollNumber, String name, int age, String grade) {
         this.rollNumber = rollNumber;
         this.name = name;
         this.age = age;
