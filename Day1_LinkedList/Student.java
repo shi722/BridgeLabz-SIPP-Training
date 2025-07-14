@@ -1,3 +1,4 @@
+package Day1_LinkedList;
 public class Student {
     int rollNumber;
     String name;
