@@ -4,14 +4,14 @@ public class SimpleBrowser {
     Stack<String> backStack = new Stack<>();
     Stack<String> forwardStack = new Stack<>();
     String currentPage = "home";
-    
+
     void visit(String url) {
         backStack.push(currentPage);
         currentPage = url;
         forwardStack.clear();
         System.out.println("Visited: " + currentPage);
     }
-
+    
     void back() {
         if (!backStack.isEmpty()) {
             forwardStack.push(currentPage);
