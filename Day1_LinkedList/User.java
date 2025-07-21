@@ -1,5 +1,7 @@
 package Day1_LinkedList;
 
+import java.util.ArrayList;
+
 public class User {
     int userId;
     String name;
@@ -15,3 +17,4 @@ public class User {
         this.next = null;
     }
 }
+
