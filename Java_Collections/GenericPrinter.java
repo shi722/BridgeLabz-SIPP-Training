@@ -1,3 +1,4 @@
+package Java_Collections;
 public class GenericPrinter {
     public static <T> void print(T value) {
         System.out.println(value);

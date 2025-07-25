@@ -1,3 +1,4 @@
+package Java_Collections;
 import java.util.*;
 public  class TypeSafeList {
     public static void main(String[] args) {
