@@ -1,4 +1,4 @@
-package Java_Collections;
+package Java_Generics;
 class Calculator<T extends Number> {
     public double square(T num) {
         return num.doubleValue() * num.doubleValue();

@@ -1,4 +1,4 @@
-package Java_Collections;
+package Java_Generics;
 public class GenericPrinter {
     public static <T> void print(T value) {
         System.out.println(value);

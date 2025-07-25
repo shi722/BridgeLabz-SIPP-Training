@@ -1,4 +1,4 @@
-package Java_Collections;
+package Java_Generics;
 import java.util.*;
 public  class TypeSafeList {
     public static void main(String[] args) {
